@@ -18,6 +18,15 @@
     border-radius: 10px;
     background-color: #673A44;
     color: white;
+    text-align: center;
+}
+.p31 {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #673A44;
+    color: white;
+    text-align: center;
+    margin-left: 570px;
 }
 .p4 {
     display: flex;
@@ -72,7 +81,7 @@
         align-items: center;
         font-size: 18px;
     }
-    .m5, .m11, .m12, .m14 {
+    .m5, .m11, .m12, .m14, .n4 {
         display: none;
     }
 .m9 {
@@ -95,6 +104,17 @@
 .n2 {
     width: 400px;
 }
+.n5 {
+    width: 400px;
+}
+.n3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
 
 
 
@@ -143,15 +163,21 @@ margin: auto;
     width: 80%;
     margin: auto;
   }
-  .m6, .m10, .m12, .m13 {
+  .m6, .m10, .m12, .m13, .n5 {
     display: none;
   }
-  .m5, .m11, .m14 {
+  .m5, .m11, .m14, .n4 {
     display: block;
   }
-  .n1 {
+  .n1, .n3 {
     flex-direction: column;
     row-gap: 35px;
+  }
+  .n4 {
+    width: 80%;
+  }
+  .p31 {
+    margin-left: 300px;
   }
 
 }
@@ -204,6 +230,9 @@ margin: auto;
   }
   .n2 {
     width: 90%;
+  }
+    .p31 {
+    margin-left: 110px;
   }
 
     
