@@ -29,6 +29,30 @@
 .p6 {
     display: none;
 }
+.p8 , .p9 {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 40%;
+}
+.p7 , .p10  {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.p11 {
+    display: flex;
+    justify-content: center;
+}
+ .p12 {
+        display: none;
+    }
+ .p13 {
+        display: none;
+    }
+
+
 
 
 
@@ -43,6 +67,26 @@
     .p6 {
         display: none;
     }
+    .p10 {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .p9 {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+    }
+    .p11 {
+      display: none;
+    }
+    .p12 {
+        display: none;
+    }
+    .p13 {
+        display: block;
+margin: auto;    }
+
 }
 
 
@@ -63,4 +107,22 @@
      .p6 {
         width: 274px;
     }
+    .p7 {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .p8 {
+        width: 80%;
+        margin: auto;
+    }
+    .p12 {
+        display: block;
+    }
+    .p11 {
+        display: none;
+    }
+    .p13 {
+        display: none;
+    }
+    
 }
