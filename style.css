@@ -72,7 +72,7 @@
         align-items: center;
         font-size: 18px;
     }
-    .m5, .m11, .m12 {
+    .m5, .m11, .m12, .m14 {
         display: none;
     }
 .m9 {
@@ -133,10 +133,10 @@ margin: auto;
     width: 80%;
     margin: auto;
   }
-  .m6, .m10, .m12 {
+  .m6, .m10, .m12, .m13 {
     display: none;
   }
-  .m5, .m11 {
+  .m5, .m11, .m14 {
     display: block;
   }
 
@@ -184,7 +184,7 @@ margin: auto;
   .m6, .m10, .m11 {
     display: none;
   }
-  .m5 {
+  .m5, .m14 {
     width: 80%;
     margin: auto;
   }
